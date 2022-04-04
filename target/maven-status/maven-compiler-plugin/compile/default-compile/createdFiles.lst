@@ -8,7 +8,6 @@ me\ikevoodoo\basicchest\util\ItemUtils.class
 me\ikevoodoo\basicchest\data\PlayerDataManager.class
 me\ikevoodoo\basicchest\inventory\InventoryCallback.class
 me\ikevoodoo\basicchest\data\PlayerCache.class
-me\ikevoodoo\basicchest\util\ExceptionUtils.class
 me\ikevoodoo\basicchest\BasicChest.class
 me\ikevoodoo\basicchest\util\InventoryUtils.class
 me\ikevoodoo\basicchest\database\OperationCallback.class

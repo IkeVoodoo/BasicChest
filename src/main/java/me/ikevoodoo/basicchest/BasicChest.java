@@ -9,6 +9,7 @@ import me.ikevoodoo.basicchest.listeners.PlayerInventoryListener;
 import org.bukkit.inventory.ItemStack;
 import org.bukkit.plugin.java.JavaPlugin;
 
+import java.io.File;
 import java.util.UUID;
 
 
@@ -50,7 +51,14 @@ public final class BasicChest extends JavaPlugin {
 
     @Override
     public void onEnable() {
-        saveDefaultConfig();
+        File configFile = new File(getDataFolder(), "config.yml");
+
+        if(!configFile.exists()) {
+            getLogger().warning("Please configure the plugin and restart the server.");
+            saveDefaultConfig();
+            return;
+        }
+
 
         playerDataManager = new PlayerDataManager(this);
 
