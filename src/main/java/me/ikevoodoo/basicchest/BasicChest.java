@@ -56,6 +56,7 @@ public final class BasicChest extends JavaPlugin {
         if(!configFile.exists()) {
             getLogger().warning("Please configure the plugin and restart the server.");
             saveDefaultConfig();
+            getServer().getPluginManager().disablePlugin(this);
             return;
         }
 
