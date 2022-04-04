@@ -1,0 +1,16 @@
+me\ikevoodoo\basicchest\commands\ChestCommand$1.class
+me\ikevoodoo\basicchest\database\MongoHandler.class
+me\ikevoodoo\basicchest\database\SubscriberImplemenation.class
+me\ikevoodoo\basicchest\inventory\InventoryManager.class
+me\ikevoodoo\basicchest\listeners\PlayerConnectionListener.class
+me\ikevoodoo\basicchest\database\SubscriberImplemenation$Callback.class
+me\ikevoodoo\basicchest\util\ItemUtils.class
+me\ikevoodoo\basicchest\data\PlayerDataManager.class
+me\ikevoodoo\basicchest\inventory\InventoryCallback.class
+me\ikevoodoo\basicchest\data\PlayerCache.class
+me\ikevoodoo\basicchest\util\ExceptionUtils.class
+me\ikevoodoo\basicchest\BasicChest.class
+me\ikevoodoo\basicchest\util\InventoryUtils.class
+me\ikevoodoo\basicchest\database\OperationCallback.class
+me\ikevoodoo\basicchest\commands\ChestCommand.class
+me\ikevoodoo\basicchest\listeners\PlayerInventoryListener.class

@@ -1,0 +1,15 @@
+name: BasicChest
+version: '${project.version}'
+main: me.ikevoodoo.basicchest.BasicChest
+api-version: 1.18
+authors: [ IkeVoodoo ]
+description: A simple storage plugin for players
+
+commands:
+  chest:
+    description: Open your personal chest
+    permission: basicchest.commands.chest
+
+libraries:
+  - org.mongodb:mongodb-driver-reactivestreams:4.2.3
+  - it.unimi.dsi:fastutil:8.5.8

@@ -1,0 +1,20 @@
+db:
+  host: localhost
+
+  port: 80
+
+  # Database name
+  name: dbname
+
+  # Database credentials, leave any of these blank to disable authentication
+  credentials:
+    user: username
+
+    password: root
+
+
+
+# Saves items on chest close, ensuring extra safety when saving items
+# The server might be slowed down when a substantial amount of players are opening and closing chests at once
+# Default: true
+saveItemsOnClose: true
